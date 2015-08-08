@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
-public class Scratchwork {
+/**
+ * https://www.hackerrank.com/challenges/2s-complement
+ */
+public class TwosComplement {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
