@@ -4,7 +4,7 @@ import java.util.Scanner;
 /**
  * https://www.hackerrank.com/challenges/find-median-1/
  */
-public class FindMedian1 {
+public class FindMedian {
 
     private static PriorityQueue<Float> minHeap = new PriorityQueue<>(100000);
     private static PriorityQueue<Float> maxHeap = new PriorityQueue<>(100000, (a, b) -> Float.compare(b, a));
